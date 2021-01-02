@@ -6,8 +6,8 @@ Make a custom html5 video player using vanilla javascript
 
 - [x] Html Form
 - [ ] Styling
-- [ ] Start Video
-- [ ] Stop Video
+- [x] Start Video
+- [x] Stop Video
 - [ ] Video Progress Bar
 - [ ] Volume Control
 - [ ] Get Running Time
@@ -18,8 +18,8 @@ Make a custom html5 video player using vanilla javascript
 
 - [x] Html Form
 - [ ] Styling
-- [ ] Start Video
-- [ ] Stop Video
+- [x] Start Video
+- [x] Stop Video
 - [ ] Video Progress Bar
 - [ ] Volume Control
 - [ ] Get Running Time
