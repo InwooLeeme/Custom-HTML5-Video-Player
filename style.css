@@ -1,0 +1,13 @@
+.volumeController {
+  opacity: 0;
+  flex: 0;
+}
+
+.showSlider {
+  opacity: 1;
+  flex: 1;
+}
+
+/* i:nth-child(2):hover{
+
+} */

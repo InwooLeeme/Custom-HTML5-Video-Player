@@ -9,7 +9,7 @@ Make a custom html5 video player using vanilla javascript
 - [x] Start Video
 - [x] Stop Video
 - [ ] Video Progress Bar
-- [ ] Volume Control
+- [x] Volume Control
 - [ ] Get Running Time
 - [ ] Full Screen
 - [ ] Out of Full Screen
@@ -21,7 +21,7 @@ Make a custom html5 video player using vanilla javascript
 - [x] Start Video
 - [x] Stop Video
 - [ ] Video Progress Bar
-- [ ] Volume Control
+- [x] Volume Control
 - [ ] Get Running Time
 - [ ] Full Screen
 - [ ] Out of Full Screen
