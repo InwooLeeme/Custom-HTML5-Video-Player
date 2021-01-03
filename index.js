@@ -1,13 +1,11 @@
 const videoContainer = document.querySelector('.video__container');
 const playIcon = document.getElementById('playBtn');
-const volumeBtn = document.getElementById("volume");
+const volumeBtn = document.getElementById("volumeBtn");
 const volumeSlider = document.querySelector('.volumeController');
 const media = document.querySelector('video');
 const screenBtn = document.getElementById('screenBtn');
 const videoController = document.querySelector('.video__controller');
 const videoPlayer = document.querySelector('.videoPlayer');
-
-console.log(videoPlayer);
 
 // Play and Pause function
 function handleVideoPlay(){
@@ -30,12 +28,10 @@ function showSlider(){
 function handleVolume(){
     let sliderValue = parseFloat(volumeSlider.value);
     if(sliderValue === 0){
-        volumeBtn.classList.remove(`fa-volume-up`);
-        volumeBtn.classList.add(`fa-volume-mute`);
+        volumeBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
     }
-    else{
-        volumeBtn.classList.remove(`fa-volume-mute`);
-        volumeBtn.classList.add(`fa-volume-up`);
+    else {
+        volumeBtn.innerHTML = '<i class="fas fa-volume-up"></i>'
     }
     media.volume = sliderValue; 
 }
