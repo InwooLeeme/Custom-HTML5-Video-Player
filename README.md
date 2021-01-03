@@ -10,8 +10,8 @@ Make a custom html5 video player using vanilla javascript
 - [x] Stop Video
 - [ ] Video Progress Bar
 - [x] Volume Control
-- [ ] Get Running Time
-- [ ] Full Screen
+- [x] Get Running Time
+- [x] Full Screen
 - [ ] Out of Full Screen
 
 # Work Flow
@@ -22,6 +22,6 @@ Make a custom html5 video player using vanilla javascript
 - [x] Stop Video
 - [ ] Video Progress Bar
 - [x] Volume Control
-- [ ] Get Running Time
-- [ ] Full Screen
+- [x] Get Running Time
+- [x] Full Screen
 - [ ] Out of Full Screen

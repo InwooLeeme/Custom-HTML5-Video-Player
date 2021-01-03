@@ -3,8 +3,11 @@ const playIcon = document.querySelector('.fa-play');
 const volumeBtn = document.getElementById("volume");
 const volumeSlider = document.querySelector('.volumeController');
 const media = document.querySelector('video');
+const screenBtn = document.getElementById('screenBtn');
+const videoController = document.querySelector('.video__controller');
+const videoPlayer = document.querySelector('.videoPlayer');
 
-//console.log(volumeBtn);
+console.log(videoPlayer);
 
 // Play and Pause function
 function handleVideoPlay(){
@@ -56,11 +59,31 @@ function getCurrentTime(){
     currentTimeInfo.innerHTML = `${minute < 10 ? `0${minute}` : `${minute}`} : ${second < 10 ? `0${second}`:`${second}`}`;
 }
 
+function exitFullScreen(){
+    document.exitFullscreen();
+    screenBtn.innerHTML = '<i class="fas fa-expand"></i>';
+    screenBtn.removeEventListener('click',exitFullScreen);
+    screenBtn.addEventListener('click',goFullScreen);
+}
+
+// Control FullScreen
+function goFullScreen(){
+    videoContainer.requestFullscreen();
+    videoController.classList.add('expand');
+    screenBtn.innerHTML = '<i class="fas fa-compress"></i>';
+   // media.classList.add(`fullScreen`);
+    screenBtn.removeEventListener('click',goFullScreen);
+    screenBtn.addEventListener('click',exitFullScreen);
+}
+
 function init() {
     playIcon.addEventListener('click',handleVideoPlay);
     volumeBtn.addEventListener('click',showSlider);
     volumeSlider.addEventListener('input',handleVolume);
     media.addEventListener('loadedmetadata', getFullTime);
+    screenBtn.addEventListener('click',goFullScreen);
 }
 
-init();
+if(videoContainer){
+    init();
+}
