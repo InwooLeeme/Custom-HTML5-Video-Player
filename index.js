@@ -1,5 +1,5 @@
 const videoContainer = document.querySelector('.video__container');
-const playIcon = document.querySelector('.fa-play');
+const playIcon = document.getElementById('playBtn');
 const volumeBtn = document.getElementById("volume");
 const volumeSlider = document.querySelector('.volumeController');
 const media = document.querySelector('video');
@@ -11,12 +11,12 @@ console.log(videoPlayer);
 
 // Play and Pause function
 function handleVideoPlay(){
-    playIcon.classList.toggle(`fa-play`);
-    playIcon.classList.toggle(`fa-pause`);
     if(media.paused){
+        playIcon.innerHTML = '<i class="fas fa-pause"></i>';
         media.play();
     }
     else{
+        playIcon.innerHTML = '<i class="fas fa-play"></i>';
         media.pause();
     }
 }

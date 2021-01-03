@@ -13,7 +13,7 @@ Make a custom html5 video player using vanilla javascript
 - [x] Get Running Time
 - [x] Full Screen
 - [ ] Out of Full Screen
-- [ ] Js Refectorying
+- [ ] Js refactoring
 
 # Work Flow
 
@@ -25,4 +25,5 @@ Make a custom html5 video player using vanilla javascript
 - [x] Volume Control
 - [x] Get Running Time
 - [x] Full Screen
-- [ ] Out of Full ScreenJs Refectorying
+- [ ] Out of Full Screen
+- [ ] Js refactoring
