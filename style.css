@@ -1,9 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.video__container {
+  width: 100%;
+  height: 100%;
+}
+
+.video__controller {
+  position: relative;
+  bottom: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#volumeBtn {
+  position: relative;
+  left: -50px;
+}
+
 .volumeController {
   opacity: 0;
   flex: 0;
+  position: relative;
+  left: -7rem;
 }
 
 .showSlider {
   opacity: 1;
-  flex: 1;
 }
