@@ -67,7 +67,6 @@ function goFullScreen(){
     videoContainer.requestFullscreen();
     videoController.classList.add('expand');
     screenBtn.innerHTML = '<i class="fas fa-compress"></i>';
-   // media.classList.add(`fullScreen`);
     screenBtn.removeEventListener('click',goFullScreen);
     screenBtn.addEventListener('click',exitFullScreen);
 }

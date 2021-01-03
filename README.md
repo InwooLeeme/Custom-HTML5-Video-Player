@@ -26,4 +26,4 @@ Make a custom html5 video player using vanilla javascript
 - [x] Get Running Time
 - [x] Full Screen
 - [x] Out of Full Screen
-- [ ] Js refactoring
+- [x] Js refactoring
