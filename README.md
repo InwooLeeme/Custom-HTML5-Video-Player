@@ -5,7 +5,7 @@ Make a custom html5 video player using vanilla javascript
 # To Do
 
 - [x] Html Form
-- [ ] Styling
+- [x] Styling
 - [x] Start Video
 - [x] Stop Video
 - [ ] Video Progress Bar
@@ -13,15 +13,16 @@ Make a custom html5 video player using vanilla javascript
 - [x] Get Running Time
 - [x] Full Screen
 - [ ] Out of Full Screen
+- [ ] Js Refectorying
 
 # Work Flow
 
 - [x] Html Form
-- [ ] Styling
+- [x] Styling
 - [x] Start Video
 - [x] Stop Video
 - [ ] Video Progress Bar
 - [x] Volume Control
 - [x] Get Running Time
 - [x] Full Screen
-- [ ] Out of Full Screen
+- [ ] Out of Full ScreenJs Refectorying
