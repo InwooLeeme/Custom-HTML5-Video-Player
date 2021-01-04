@@ -8,12 +8,11 @@ Make a custom html5 video player using vanilla javascript
 - [x] Styling
 - [x] Start Video
 - [x] Stop Video
-- [ ] Video Progress Bar
 - [x] Volume Control
 - [x] Get Running Time
 - [x] Full Screen
 - [x] Out of Full Screen
-- [ ] Js refactoring
+- [x] Js refactoring
 
 # Work Flow
 
@@ -21,7 +20,6 @@ Make a custom html5 video player using vanilla javascript
 - [x] Styling
 - [x] Start Video
 - [x] Stop Video
-- [ ] Video Progress Bar
 - [x] Volume Control
 - [x] Get Running Time
 - [x] Full Screen
